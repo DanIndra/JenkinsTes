@@ -5,4 +5,4 @@ FROM ubuntu:16.04
 RUN apt-get update
 
 # installing the necessery packages for the build to work
-RUN apt-get install -y build-essential
+RUN apt-get install -y build-essential g++
