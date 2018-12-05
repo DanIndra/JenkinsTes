@@ -1,2 +1,2 @@
-main_exec: main.cpp
-    g++ main.cpp -o main_exec
+.cpp:
+	    g++ -W -Wall $@.cpp -o $@
