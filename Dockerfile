@@ -2,7 +2,7 @@
 FROM ubuntu:16.04
 
 #paste the env to set the docker-machine context
-RUN docker exec -it --user root <container-name> /bin/bash
+RUN docker exec -it --user root testcompiler /bin/bash
 
 #terminal session as root starts
 # obatining the newest updates for ubuntu
