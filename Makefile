@@ -1,2 +1,2 @@
-hello_exec: main.cpp
-	    g++ main.cpp -o hello_exec
+mainmake: main.cpp
+	    g++ -o main main.cpp
