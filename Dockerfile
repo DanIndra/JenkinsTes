@@ -1,7 +1,7 @@
 # Donwload base image ubuntu 16.04
 FROM ubuntu:16.04
 
-6# obatining the newest updates for ubuntu
+# obatining the newest updates for ubuntu
 RUN apt-get update
 
 # installing the necessery packages for the build to work
