@@ -2,7 +2,6 @@
 FROM ubuntu:16.04
 
 #paste the env to set the docker-machine context
-RUN docker-machine env jenkins
 RUN docker exec -it --user root <container-name> /bin/bash
 
 #terminal session as root starts
