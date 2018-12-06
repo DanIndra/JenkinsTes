@@ -1,5 +1,5 @@
 # Donwload base image ubuntu 16.04
-FROM jenkins/jenkins:lts
+FROM ubuntu:16.04
 
 USER root
 # obatining the newest updates for ubuntu
