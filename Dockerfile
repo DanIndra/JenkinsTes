@@ -9,3 +9,5 @@ RUN apt-get install build-essential -y && apt-get install make -y
 #Setup working directory
 ADD /App /App
 WORKDIR /App
+
+RUN make
