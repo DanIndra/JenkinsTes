@@ -5,4 +5,4 @@ FROM ubuntu:16.04
 RUN apt-get update -y && apt-get install -y build-essential make g++ make git
 
 #trying to make the Makefile
-RUN make
+RUN make -Makefile
