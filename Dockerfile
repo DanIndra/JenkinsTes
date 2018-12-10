@@ -8,4 +8,3 @@ RUN apt-get upgrade -y
 #Setup working directory
 ADD /App /App
 WORKDIR /App
-RUN make
