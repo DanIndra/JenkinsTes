@@ -2,4 +2,17 @@
 FROM ubuntu:16.04
 
 #Updating and installing necessary packages
-RUN apt-get update -y && apt-get install -y build-essential make g++ make git
+RUN apt-get update -y
+RUN apt-get upgrade -y
+RUN apt-get install build-essential -y && apt-get install make -y && apt-get install g++ -y && apt-get install git -y
+
+RUN apt-get install curl -y
+RUN apt-get install vim -y
+
+#Setup working directory
+ADD /App /App
+WORKDIR /App
+RUN make
+
+#expose port
+EXPOSE 8090
