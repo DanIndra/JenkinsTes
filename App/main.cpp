@@ -1,6 +1,8 @@
 // Test for the Jenkins Build
 
 #include <iostream>
+#include <stdio>
+
 
 int main()
 {
