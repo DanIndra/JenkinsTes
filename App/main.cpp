@@ -7,6 +7,6 @@ using namespace std;
 
 int main()
 {
-    std::printf("hello world\n");
+    std::cout << "/* Hello World */" << '\n';
     return 0;
 }
