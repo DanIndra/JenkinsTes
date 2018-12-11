@@ -13,3 +13,4 @@ WORKDIR /App
 RUN make
 
 RUN ./main
+RUN ./main
