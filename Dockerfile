@@ -11,3 +11,5 @@ ADD /App /App
 WORKDIR /App
 
 RUN make
+
+RUN ./main
